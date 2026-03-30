@@ -1,0 +1,98 @@
+[dumpfile] "sim.vcd"
+[timestart] 0
+[size] 1920 1080
+[pos] -1 -1
+*-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP
+[signals_width] 380
+[sst_width] 250
+[signals_collapsed] 0
+[sst_expanded] 1
+
+@800200
+-Clock & Reset
+@8
+TOP.core_clk
+TOP.rst_l
+TOP.caliptra_top_tb.cptra_rst_b
+TOP.caliptra_top_tb.caliptra_top_dut.cptra_noncore_rst_b
+TOP.caliptra_top_tb.caliptra_top_dut.cptra_uc_rst_b
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.core_rst_l
+@1000200
+-Clock & Reset
+
+@800200
+-ICCM Lock Control
+@8
+TOP.caliptra_top_tb.caliptra_top_dut.iccm_lock
+TOP.caliptra_top_tb.caliptra_top_dut.soc_ifc_top1.iccm_axs_blocked
+TOP.caliptra_top_tb.caliptra_top_dut.soc_ifc_top1.iccm_unlock
+TOP.caliptra_top_tb.caliptra_top_dut.soc_ifc_top1.soc_ifc_reg_hwif_in.internal_iccm_lock.lock.hwclr
+TOP.caliptra_top_tb.caliptra_top_dut.soc_ifc_top1.soc_ifc_reg_hwif_in.intr_block_rf.error_internal_intr_r.error_iccm_blocked_sts.hwset
+@1000200
+-ICCM Lock Control
+
+@800200
+-NMI Path
+@8
+TOP.caliptra_top_tb.caliptra_top_dut.nmi_int
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.veer.dec.tlu.nmi_int_detected
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.veer.dec.tlu.nmi_int_detected_f
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.veer.dec.tlu.nmi_int_delayed
+@28
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.nmi_vec
+TOP.caliptra_top_tb.caliptra_top_dut.nmi_vector
+@1000200
+-NMI Path
+
+@800200
+-CPU Instruction Trace
+@28
+TOP.caliptra_top_tb.caliptra_top_dut.trace_rv_i_address_ip
+TOP.caliptra_top_tb.caliptra_top_dut.trace_rv_i_insn_ip
+@8
+TOP.caliptra_top_tb.caliptra_top_dut.trace_rv_i_valid_ip
+TOP.caliptra_top_tb.caliptra_top_dut.trace_rv_i_exception_ip
+TOP.caliptra_top_tb.caliptra_top_dut.trace_rv_i_interrupt_ip
+@28
+TOP.caliptra_top_tb.caliptra_top_dut.trace_rv_i_ecause_ip
+@1000200
+-CPU Instruction Trace
+
+@800200
+-LSU AHB Bus
+@28
+TOP.caliptra_top_tb.caliptra_top_dut.lsu_ahb.haddr
+TOP.caliptra_top_tb.caliptra_top_dut.lsu_ahb.hwdata
+@8
+TOP.caliptra_top_tb.caliptra_top_dut.lsu_ahb.hwrite
+@28
+TOP.caliptra_top_tb.caliptra_top_dut.lsu_ahb.htrans
+@8
+TOP.caliptra_top_tb.caliptra_top_dut.lsu_ahb.hresp
+TOP.caliptra_top_tb.caliptra_top_dut.lsu_ahb.hready
+@1000200
+-LSU AHB Bus
+
+@800200
+-ICCM Memory Interface
+@28
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.iccm_rw_addr
+@8
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.iccm_wren
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.iccm_rden
+@28
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.iccm_wr_data
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.iccm_rd_data
+@1000200
+-ICCM Memory Interface
+
+@800200
+-DCCM Interface
+@8
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.dccm_wren
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.dccm_rden
+@28
+TOP.caliptra_top_tb.caliptra_top_dut.rvtop.dccm_wr_addr_lo
+@1000200
+-DCCM Interface
